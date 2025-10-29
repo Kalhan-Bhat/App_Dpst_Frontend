@@ -112,22 +112,23 @@ const Portfolio = () => {
                   {/* Project Image Placeholder */}
                   <div className="h-48 w-full overflow-hidden">
                     <img
-                      src={
-                        index === 0
-                          ? "src/pages/download (1).jpeg"
-                          : index === 1
-                          ? "src/pages/download (2).jpeg"
-                          : index === 2
-                          ? "src/pages/download.png"
-                          : index === 3
-                          ? "src/pages/images (3).jpeg"
-                          : index === 4
-                          ? "src/pages/mobile-application-development.jpg"
-                          : "src/pages/download (3).jpeg"
-                      }
-                      alt={project.title}
-                      className="w-full h-full object-cover"
-                    />
+  src={
+    index === 0
+      ? "/images/download1.jpeg"
+      : index === 1
+      ? "/images/download2.jpeg"
+      : index === 2
+      ? "/images/download.png"
+      : index === 3
+      ? "/images/images3.jpeg"
+      : index === 4
+      ? "/images/mobile-application-development.jpg"
+      : "/images/download3.jpeg"
+  }
+  alt={project.title}
+  className="w-full h-full object-cover rounded-xl shadow-lg"
+/>
+
                   </div>
 
                   <div className="p-6">

@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className="flex items-center">
   <div className="w-48 h-12 border-2 border-dashed border-muted-foreground/30 rounded-lg flex items-center justify-center overflow-hidden bg-white">
     <img
-      src="src\components\appdost-logo.png" 
+      src="images/appdost-logo.png" 
       alt="Logo"
       className="h-10 object-contain"
     />
