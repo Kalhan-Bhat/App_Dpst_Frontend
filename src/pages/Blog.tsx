@@ -12,7 +12,7 @@ const Blog = () => {
       date: "March 15, 2025",
       category: "Web Development",
       readTime: "5 min read",
-      image: "src/pages/download (1).jpeg" // 🔹 Placeholder image path
+      image: "/images/download (1).jpeg" // 🔹 Placeholder image path
     },
     {
       title: "Building Scalable Mobile Apps with React Native",
@@ -21,7 +21,7 @@ const Blog = () => {
       date: "March 10, 2025",
       category: "Mobile Development",
       readTime: "8 min read",
-      image: "src/pages/download (2).jpeg" // 🔹 Placeholder image path
+      image: "/images/download (2).jpeg" // 🔹 Placeholder image path
     },
     {
       title: "The Importance of UI/UX in Business Success",
@@ -30,7 +30,7 @@ const Blog = () => {
       date: "March 5, 2025",
       category: "Design",
       readTime: "6 min read",
-      image: "src/pages/download (3).jpeg" // 🔹 Placeholder image path
+      image: "/images/download (3).jpeg" // 🔹 Placeholder image path
     },
     {
       title: "Cybersecurity Best Practices for Small Businesses",
@@ -39,7 +39,7 @@ const Blog = () => {
       date: "February 28, 2025",
       category: "Security",
       readTime: "7 min read",
-      image: "src/pages/download.png" // 🔹 Placeholder image path
+      image: "/images/download.png" // 🔹 Placeholder image path
     },
     {
       title: "Cloud Migration: A Complete Guide",
@@ -48,7 +48,7 @@ const Blog = () => {
       date: "February 20, 2025",
       category: "Cloud",
       readTime: "10 min read",
-      image: "src/pages/images (2).jpeg" // 🔹 Placeholder image path
+      image: "/images/images (2).jpeg" // 🔹 Placeholder image path
     },
     {
       title: "Agile Development: Myths vs Reality",
@@ -57,7 +57,7 @@ const Blog = () => {
       date: "February 15, 2025",
       category: "Development",
       readTime: "6 min read",
-      image: "src/pages/images (3).jpeg" // 🔹 Placeholder image path
+      image: "/images/images (3).jpeg" // 🔹 Placeholder image path
     },
   ];
 
